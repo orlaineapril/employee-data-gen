@@ -7,7 +7,7 @@ file_path = 'data generator.xlsx'
 df = pd.read_excel(file_path, engine='openpyxl')
 
 # Set admin password
-admin_password = 'admin123'
+admin_password = 'Admin123'
 
 # Function to authenticate user
 def authenticate(employee_id, password):
